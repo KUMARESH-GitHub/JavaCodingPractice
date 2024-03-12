@@ -1,1 +1,0 @@
-# JavaCodingPractice - This project is to create and understand the Java basic logical codings!!!
