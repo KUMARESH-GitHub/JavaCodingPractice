@@ -18,7 +18,7 @@ public class Count_Number_Of_Words_In_A_String {
                 map.put(split[i], count+1);
             }
             else {
-                map.put(split[i], 1);
+                map.put(split[i], 1 );
             }
         }
         System.out.println(map);
