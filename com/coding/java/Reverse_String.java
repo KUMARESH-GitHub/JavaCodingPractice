@@ -3,7 +3,6 @@ package com.coding.java;
 public class Reverse_String {
 
     public static void main(String[] args) {
-
         /* Provide any number or String to validate*/
         String original1 = "123456789 12341234 999888777665";
         String original = "abcdammadcba Nokia is good mobile";
