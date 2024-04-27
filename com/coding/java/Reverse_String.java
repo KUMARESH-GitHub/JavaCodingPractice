@@ -1,11 +1,12 @@
 package com.coding.java;
 
-public class String_Reverse_OR_Palindrome {
+public class Reverse_String {
 
     public static void main(String[] args) {
 
         /* Provide any number or String to validate*/
-        String original = "abcdammadcba";
+        String original1 = "123456789 12341234 999888777665";
+        String original = "abcdammadcba Nokia is good mobile";
         String reverse = "";
 
         for (int i = original.length() - 1; i >= 0; i--) {
@@ -16,7 +17,7 @@ public class String_Reverse_OR_Palindrome {
         System.out.println("Given String: " + original);
         System.out.println("Reversed String: " + reverse);
 
-        if (original.equals(reverse)) {
+        if (original.equalsIgnoreCase(reverse)) {
             System.out.println("Given String is a palindrome!!");
         } else {
             System.out.println("Given String is not a palindrome!!");
