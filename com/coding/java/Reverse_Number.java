@@ -6,6 +6,8 @@ public class Reverse_Number {
 
         int num = 123456789, reversed = 0;
 
+        System.out.println("Given Number: " + num);
+
         for (; num != 0; num /= 10) {
             int digit = num % 10;
             reversed = reversed * 10 + digit;
