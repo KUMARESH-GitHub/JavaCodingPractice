@@ -5,7 +5,7 @@ public class Reverse_String {
     public static void main(String[] args) {
         /* Provide any number or String to validate*/
         String original1 = "123456789 12341234 999888777665";
-        String original = "I am Kumaresh and I am the Automation Tester";
+        String original = "I am Kumaresh and I am an Automation Tester";
         String reverse = "";
 
         for (int i = original.length() - 1; i >= 0; i--) {
