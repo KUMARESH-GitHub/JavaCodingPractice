@@ -24,7 +24,7 @@ public class CountVowelOccurrences {
 
         System.out.println("Occurrences of each vowel:"); // Print the count of each vowel
         for (char vowel : vowelCount.keySet()) {
-            System.out.println(vowel + ": " + vowelCount.get(vowel));
+            System.out.println(vowel + ":" + vowelCount.get(vowel));
         }
     }
 }
